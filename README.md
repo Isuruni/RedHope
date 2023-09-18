@@ -1,65 +1,34 @@
-# RedHope
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Mobile and a web application to connect blood donors and blood requesters within Sri Lanka
+## Getting Started
 
-# RedHope Web-App Contribution Guide
+First, run the development server:
 
-If you want to contribute to this repository, follow these steps:
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
 
-1. Clone the Repository:
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-   - Clone this repository to your local machine.
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-2. Switch to the "dev" Branch:
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-   - Open a terminal and navigate to the directory where you cloned the repository.
-   - Check if you are on the "dev" branch using the following command:
-     ```bash
-     git checkout
-     ```
-   - If you are not on the "dev" branch, you can check the current branch and list existing branches with the following commands:
-     ```bash
-     git checkout current-branch
-     git branch
-     ```
-   - To switch to another existing branch, use:
-     ```bash
-     git checkout desired-branch
-     ```
+## Learn More
 
-3. Update and Fetch Remote Changes:
+To learn more about Next.js, take a look at the following resources:
 
-   - To get the latest updates from the "dev" branch, run:
-     ```bash
-     git fetch origin
-     ```
-     This fetches the latest changes from the remote repository without merging them.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-4. Create a New Branch with Your Name:
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-   - Create a new branch with your name using the following command (replace `<contributor-branch-name>` with your desired branch name):
-     ```bash
-     git checkout -b <contributor-branch-name> origin/dev
-     ```
-     This command creates a new branch and sets it to track the "dev" branch, allowing your changes to be based on the latest "dev" branch.
+## Deploy on Vercel
 
-5. Start Making Changes:
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-   - You can now start making changes to the project files in your newly created branch. Add, modify, or delete files as needed.
-
-6. Commit and Push Changes:
-
-   - After making changes, commit them with a descriptive message and push to the remote repository. Use this workflow:
-     ```bash
-     # Stage changes
-     git add .
-     # Commit changes with a descriptive message
-     git commit -m "Add/update files related to <feature or fix>"
-     # Push the changes to the remote repository
-     git push origin <contributor-branch-name>
-     ```
-
-7. Create a Pull Request:
-   - Once your changes are pushed to your branch, create a pull request (PR) on the project's repository. Project maintainers will review your changes and potentially merge them into the "dev" branch.
-
-That's the general workflow for contributing to the RedHope Web-App repository. Make sure to replace `<contributor-branch-name>` with your actual branch name. If you have any questions or need further guidance, feel free to ask.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
